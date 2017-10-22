@@ -1,21 +1,100 @@
-<!DOCTYPE html>
-<html lang ="en">
-<link href='../css/bootstrap.css' rel='stylesheet'>
-<head> 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-	<meta name="viewport" content="width-device-width, initial-scale=1">
-	
-	<title>Vegan Kitchen</title>
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Vegan Kitchen</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<body>
-	<h1>Welcome to our Vegan Kithen</h1>
-	<p>Vegan Kitchen is an optional webpage from Minimalist Baker. This webpage is a part of final project during programming class from CodeFirst:Girl. The content of this website has been modified based on Minimalist Baker webstite. The Minimalist Baker is a website devoted to simple cooking. All recipes require 10 ingredients or less, 1 bowl or 1 pot, or 30 minutes or less to prepare. This Minimalist Baker has been founded by Dana and John in 2012. The Minimalist Baker is currently situated in Portland, Oregon.</p>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+      
+    <!--custom css -look at styles.css-->
+      <link rel="stylesheet" href="../css/styles.css">
+      
+  </head>
+    
+  <body>
+     
+      <!--This is cover-->
+      <section id="cover">
+        <div id="cover-caption">
+            <div class="container">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <h1 class="display-3">Welcome to Vegan Kitchen</h1>
+                    <p>Vegan Kitchen is an alternative website.</p>
+                    
+                <button type=link href=".." class="btn-success btn-lg">Meet the team</button>
+                <button type=link href=".." class="btn-success btn-lg">About CodeFirst:Girl</button>
+                </div>
+            </div>
+        </div>
+      </section>
+    
+        <!--This is Navbar-->
+      <nav class="navbar navbar-dark bg-inverse navbar-full">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
 
-	<h1>The Recipes</h1>
-	<p>Because everyone can benefit from incorporating more plants into their diets, our recipes are special-diet friendly, specifically plant-based and gluten-free.</p>
-	
-	
-	</body>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown
+                    </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Our recipe</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+      
+      <!-- This is carousel-->
+      <section id="carousel">
+        <div id="carousel-home" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-home" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-home" data-slide-to="1"></li>
+                <li data-target="#carousel-home" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="../images/images1.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="../images/images2.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="../images/image3.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"    aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+      
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
 </html>
