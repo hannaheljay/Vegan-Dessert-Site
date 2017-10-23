@@ -4,6 +4,11 @@ html,
 body{
     height:100%;
 }
+/* navbar */
+.navlink{
+    color:black;
+    font-size:18px;
+}
 
 /* cover */
 #cover {
@@ -17,4 +22,15 @@ body{
 }
 #cover-caption {
     width:100%;
+}
+
+.covershadow{
+    display:none;
+    height:40px;
+    position:absolute;
+    width:98%;
+    z-index: 9999;
+}
+.spacer{
+    height:50%;
 }
