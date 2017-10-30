@@ -7,3 +7,60 @@ https://logomkr.com
 Link for social channel:
 https://www.facebook.com/MinimalistBaker
 
+Structure-one page landing website
+Navbar:
+Logo (home)<- left
+Recipe
+Kitchen
+Gallery
+Team
+Inspiration
+Contact
+
+Home: 
+-Welcome to vegan kitchen
+We enjoy eating and cooking as well as love making food everyone can enjoy
+-Get started
+
+Our recipe:
+
+Tell me how to make ___
+-breakfast, 
+-sweets, 
+-main course
+-snacks
+-sides
+-beverages
+-gluten-free
+-vegan
+
+pick your favourite: using google form in here
+
+Our kitchen:
+Behind the vegan kitchen, our philosophy--<use carousel
+simple 
+quick
+delicious
+
+Gallery
+put some picts and use modal
+
+Meet our amazing team
+<- team page, who we are, what we think about cooking and codefirst 
+-about CFG<- codefirst website to introduce CFG
+
+Inspiration
+This website taken inspiration from several extraordinary resources
+the main idea about baking was coming from the minimalist baker
+thanks to codefirst girl
+thanks to our instructor
+thanks to 
+
+ 
+Contact us
+We would like to hear what is the next healthy recipe do you wanna try. Send us a message!
+
+Subscribe now
+Also, don't forget to subscribe to get the latest updates
+
+https://blackrockdigital.github.io/startbootstrap-agency/
