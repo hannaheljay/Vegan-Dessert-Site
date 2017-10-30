@@ -34,3 +34,20 @@ body{
 .spacer{
     height:50%;
 }
+
+color: white;
+}
+
+/* footer */
+.btn-twitter {
+    background-color: #00aced;
+    border-color: #00aced; 
+}
+.btn-facebook { 
+    background-color: #4868ac; 
+    border-color: #4868ac;
+}
+.btn-instagram {
+    background-color: #fb3958;
+    border-color: #fb3958;
+}
