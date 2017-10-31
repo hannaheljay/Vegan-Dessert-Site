@@ -168,7 +168,7 @@ header.masthead {
     color: white;}
 
   header.masthead .intro-text {
-    padding-top: 150px;
+    padding-top: 250px;
     padding-bottom: 100px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 22px;
@@ -200,9 +200,135 @@ header.masthead {
       margin-bottom: 50px;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; } }
 
+
+
+#Recipe .Recipe-item {
+  right: 0;
+  margin: 0 0 15px; }
+  #Recipe .Recipe-item .Recipe-link {
+    position: relative;
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    cursor: pointer; }
+    #Recipe .Recipe-item .Recipe-link .Recipe-hover {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      transition: all ease 0.5s;
+      opacity: 0;
+      background: rgba(254, 209, 54, 0.9); }
+      #Recipe .Recipe-item .Recipe-link .Recipe-hover:hover {
+        opacity: 1; }
+      #Recipe .Recipe-item .Recipe-link .Recipe-hover .Recipe-hover-content {
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        height: 20px;
+        margin-top: -12px;
+        text-align: center;
+        color: white; }
+        #Recipe .Recipe-item .Recipe-link .Recipe-hover .Recipe-hover-content i {
+          margin-top: -12px; }
+        #Recipe .Recipe-item .Recipe-link .Recipe-hover .Recipe-hover-content h3,
+        #Recipe .Recipe-item .Recipe-link .Recipe-hover .Recipe-hover-content h4 {
+          margin: 0; }
+  #Recipe .Recipe-item .Recipe-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    background-color: #fff; }
+    #Recipe .Recipe-item .Recipe-caption h4 {
+      margin: 0;
+      text-transform: none; }
+    #Recipe .Recipe-item .Recipe-caption p {
+      font-size: 16px;
+      font-style: italic;
+      margin: 0;
+      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+#Recipe * {
+  z-index: 2; }
+
+@media (min-width: 767px) {
+  #Recipe .Recipe-item {
+    margin: 0 0 30px; } }
+
+.Recipe-modal .modal-dialog {
+  max-width: none;
+  height: 100%;
+  margin: 0; }
+
+.Recipe-modal .modal-content {
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center;
+  border: none;
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+  .Recipe-modal .modal-content h2 {
+    font-size: 3em;
+    margin-bottom: 15px; }
+  .Recipe-modal .modal-content p {
+    margin-bottom: 30px; }
+  .Recipe-modal .modal-content p.item-intro {
+    font-size: 16px;
+    font-style: italic;
+    margin: 20px 0 30px;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  .Recipe-modal .modal-content ul.list-inline {
+    margin-top: 0;
+    margin-bottom: 30px; }
+  .Recipe-modal .modal-content img {
+    margin-bottom: 30px; }
+  .Recipe-modal .modal-content button {
+    cursor: pointer; }
+
+.Recipe-modal .close-modal {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+  background-color: transparent; }
+  .Recipe-modal .close-modal:hover {
+    opacity: 0.3; }
+  .Recipe-modal .close-modal .lr {
+    /* Safari and Chrome */
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: #212529; }
+    .Recipe-modal .close-modal .lr .rl {
+      /* Safari and Chrome */
+      z-index: 1052;
+      width: 1px;
+      height: 75px;
+      /* IE 9 */
+      -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: rotate(90deg);
+      background-color: #212529; }
+
+.Recipe-modal .modal-backdrop {
+  display: none;
+  opacity: 0; }
+
+
 container.team-pict{
-    padding-top: 20px;
-    padding-bottom: 20px; 
+    background-size:auto; 
 }
 
 section#Contact {
