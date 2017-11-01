@@ -326,6 +326,10 @@ header.masthead {
   display: none;
   opacity: 0; }
 
+.pop-uplist {
+  text-align: left;
+}
+
 .Kitchen-heading {
   margin: 15px 0;
   text-transform: none; }
