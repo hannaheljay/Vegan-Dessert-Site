@@ -1,63 +1,9 @@
 Link to create the temp domain: freenom
 
+Link to create logo
+https://logomkr.com
+
 
 Link for social channel:
 https://www.facebook.com/MinimalistBaker
 
-Structure-one page landing website
-Navbar:
-Logo (home)<- left
-Recipe
-Kitchen
-Gallery
-Team
-Inspiration
-Contact
-
-Home: 
--Welcome to vegan kitchen
-
--Get started
-
-
-Our recipe:
-
-Tell me how to make ___using typed
--breakfast, 
--sweets, 
--main course
--snacks
--sides
--beverages
-
-pick your favourite: using google form in here
-
-Our kitchen:<-just using card in here
-Behind the vegan kitchen, our philosophy--<use carousel
-simple 
-quick
-delicious
-see more<-theminimalist baker link
-
-Gallery<-maube using carousel
-put some picts 
-
-Meet our amazing team
-<- team page, who we are, what we think about cooking and codefirst 
--about CFG<- codefirst website to introduce CFG
-
-Inspiration
-This website inspired from several extraordinary resources
-the main idea about baking was coming from the minimalist baker
-thanks to codefirst girl
-thanks to our instructor
-thanks to 
-
- 
-Contact us
-We would like to hear what is the next healthy recipe do you wanna try. Send us a message!
-
-Subscribe now
-Also, don't forget to subscribe to get the latest updates
-
-https://blackrockdigital.github.io/startbootstrap-agency/
