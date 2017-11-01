@@ -242,3 +242,16 @@ section#Contact {
     font-weight: 700;
     color: #ced4da;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+/* footer */
+ .btn-twitter {
+     background-color: #00aced;
+     border-color: #00aced; 
+ }
+ .btn-facebook { 
+     background-color: #4868ac; 
+     border-color: #4868ac;
+ }
+ .btn-instagram {
+     background-color: #fb3958;
+     border-color: #fb3958;
