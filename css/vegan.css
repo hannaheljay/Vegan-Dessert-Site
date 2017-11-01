@@ -326,6 +326,9 @@ header.masthead {
   display: none;
   opacity: 0; }
 
+.Kitchen-heading {
+  margin: 15px 0;
+  text-transform: none; }
 
 container.team-pict{
     background-image:url("../images/team3.jpg");
