@@ -378,6 +378,16 @@ section#Contact {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 /* footer */
+  .footer {
+    background-color: #212529;
+    color: #ffffff;
+    text-align: center; 
+  }
+
+  .form-inline {
+    position: center
+  }
+
  .btn-twitter {
      background-color: #00aced;
      border-color: #00aced; 
