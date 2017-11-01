@@ -1,8 +1,5 @@
 Link to create the temp domain: freenom
 
-Link to create logo
-https://logomkr.com
-
 
 Link for social channel:
 https://www.facebook.com/MinimalistBaker
@@ -19,38 +16,38 @@ Contact
 
 Home: 
 -Welcome to vegan kitchen
-We enjoy eating and cooking as well as love making food everyone can enjoy
+
 -Get started
+
 
 Our recipe:
 
-Tell me how to make ___
+Tell me how to make ___using typed
 -breakfast, 
 -sweets, 
 -main course
 -snacks
 -sides
 -beverages
--gluten-free
--vegan
 
 pick your favourite: using google form in here
 
-Our kitchen:
+Our kitchen:<-just using card in here
 Behind the vegan kitchen, our philosophy--<use carousel
 simple 
 quick
 delicious
+see more<-theminimalist baker link
 
-Gallery
-put some picts and use modal
+Gallery<-maube using carousel
+put some picts 
 
 Meet our amazing team
 <- team page, who we are, what we think about cooking and codefirst 
 -about CFG<- codefirst website to introduce CFG
 
 Inspiration
-This website taken inspiration from several extraordinary resources
+This website inspired from several extraordinary resources
 the main idea about baking was coming from the minimalist baker
 thanks to codefirst girl
 thanks to our instructor

@@ -328,7 +328,12 @@ header.masthead {
 
 
 container.team-pict{
-    background-size:auto; 
+    background-image:url("../images/team3.jpg");
+    background-position : absolute;
+    width: 480px;
+    top: 0;
+    bottom: 0;
+    left: calc((100% - 280px) * 0.5); 
 }
 
 section#Contact {
