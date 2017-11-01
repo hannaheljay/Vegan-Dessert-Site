@@ -341,7 +341,7 @@ container.team-pict{
 
 section#Contact {
   background-size: cover;
-  background-image: url("../images/image2.jpg");
+  background-color:#FCC82B70;
   background-repeat: no-repeat;
   background-position: center; }
   section#Contact .section-heading {
