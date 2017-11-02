@@ -343,6 +343,16 @@ container.team-pict{
     left: calc((100% - 280px) * 0.5); 
 }
 
+.center {
+  display: block;
+  margin: auto; 
+  width: 80%;
+}
+
+#Gallery {
+  background-color: #f8f9fa;
+}
+
 section#Contact {
   background-size: cover;
   background-color:#FCC82B70;
@@ -386,6 +396,7 @@ section#Contact {
     background-color: #212529;
     color: #ffffff;
     text-align: center; 
+    padding-top: 20px;
   }
 
   .form-inline {
