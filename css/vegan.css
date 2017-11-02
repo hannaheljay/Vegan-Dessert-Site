@@ -349,6 +349,10 @@ container.team-pict{
   width: 80%;
 }
 
+#Gallery {
+  background-color: #f8f9fa;
+}
+
 section#Contact {
   background-size: cover;
   background-color:#FCC82B70;
