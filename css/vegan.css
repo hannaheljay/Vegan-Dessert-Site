@@ -343,6 +343,12 @@ container.team-pict{
     left: calc((100% - 280px) * 0.5); 
 }
 
+.center {
+  display: block;
+  margin: auto; 
+  width: 80%;
+}
+
 section#Contact {
   background-size: cover;
   background-color:#FCC82B70;
